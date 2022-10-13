@@ -1,0 +1,11 @@
+#includes <stdio.h>
+/**
+* main - starting point of the program execution
+* Description: 'the program's description'
+* Return: Always 0 (indicating Success)
+*/
+int main(void)
+{
+	prinf("\with proper grammar, but the outcome is a piece of art,");
+	return (0);
+}
