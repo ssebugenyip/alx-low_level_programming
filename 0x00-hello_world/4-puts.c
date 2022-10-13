@@ -1,4 +1,4 @@
-# !bin / bash
+
 #include <stdio.h>
 /**
 * main - Starting point of the program execution
@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming islike building a multilingual puzzle");
 	return (0);
 }
 
