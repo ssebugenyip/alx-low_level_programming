@@ -10,9 +10,13 @@ int main(void)
 {
 	char alphabet = 'A';
 
-	while ((alphabet = 'A') && (alphabet < 'E') && (alphabet < 'Q') && 
-	(alphabet <= 'Z'))
+	while (alphabet <= 'Z') 
 	{
+		if ((alphabet == 'E') || (alphabet == 'Q'))
+		{
+			continue;
+
+		}
 		putchar(tolower(alphabet));
 		alphabet++;
 
