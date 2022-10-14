@@ -9,9 +9,10 @@ int main(void)
 {
 	char alphabet = 'A';
 
-	while (alphabet < 'Z')
+	while (alphabet <= 'Z')
 	{
 		putchar(tolower(alphabet));
+		alpahabet++;
 
 	}
 
