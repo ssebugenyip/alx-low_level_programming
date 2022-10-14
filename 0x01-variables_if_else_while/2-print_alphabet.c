@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
 *main - starting point
 *description 'program that prints in alphabet'
@@ -8,7 +9,7 @@ int main(void)
 {
 	char x;
 
-	while (x = 'A' && x <= 'Z')
+	while ((x = 'A') && (x <= 'Z'))
 	{
 		putchar(tolower(x));
 
