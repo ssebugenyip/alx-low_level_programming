@@ -8,9 +8,9 @@
 */
 int main(void)
 {
-	char alphabet = 'A';
+	char alphabet;
 
-	for (alphabet; alphabet <= 'Z'; alphabet++) 
+	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++) 
 	{
 		if ((alphabet == 'E') || (alphabet == 'Q'))
 		{
