@@ -12,6 +12,7 @@ int main(void)
 	while ((x = 'A') && (x <= 'Z'))
 	{
 		putchar(tolower(x));
+		x++;
 
 	}
 
