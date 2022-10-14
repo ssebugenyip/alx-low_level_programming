@@ -14,9 +14,8 @@ int main(void)
 	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
 	{
 		putchar(tolower(alphabet));
-		
 	}
-	for (ALPHABET = 'a'; ALPHABET <= 'Z'; ALPHABET++)
+	for (ALPHABET = 'a'; ALPHABET <= 'z'; ALPHABET++)
 	{
 		putchar(toupper(ALPHABET));
 
@@ -26,5 +25,3 @@ int main(void)
 
 	return (0);
 }
-
-    
