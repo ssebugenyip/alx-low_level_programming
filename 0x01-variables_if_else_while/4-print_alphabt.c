@@ -10,7 +10,7 @@ int main(void)
 {
 	char alphabet = 'A';
 
-	while (alphabet <= 'Z') 
+	for (alphabet; alphabet <= 'Z'; alphabet++) 
 	{
 		if ((alphabet == 'E') || (alphabet == 'Q'))
 		{
