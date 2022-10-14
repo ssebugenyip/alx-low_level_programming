@@ -11,13 +11,13 @@ int main(void)
 	char alphabet = 'A';
 	char ALPHABET = 'a';
 
-	If (alphabet <= 'Z')
+	if (alphabet <= 'Z')
 	{
 		putchar(tolower(alphabet));
 		alphabet++;
 
 	}
-	if (ALPHABET <= 'Z')
+	else if (ALPHABET <= 'Z')
 	{
 		putchar(toupper(ALPHABET));
 		ALPHABET++;
