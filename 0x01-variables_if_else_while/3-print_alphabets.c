@@ -17,11 +17,11 @@ int main(void)
 		
 	}
 	for (ALPHABET = 'a'; ALPHABET <= 'Z'; ALPHABET++)
-		{
-			putchar(toupper(ALPHABET));
+	{
+		putchar(toupper(ALPHABET));
 
-		}
 	}
+
 	putchar('\n');
 
 	return (0);
