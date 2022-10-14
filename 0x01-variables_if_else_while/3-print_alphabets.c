@@ -15,13 +15,14 @@ int main(void)
 	{
 		putchar(tolower(alphabet));
 		alphabet++;
+		
+	
+		if (ALPHABET <= 'Z')
+		{
+			putchar(toupper(ALPHABET));
+			ALPHABET++;
 
-	}
-	else if (ALPHABET <= 'Z')
-	{
-		putchar(toupper(ALPHABET));
-		ALPHABET++;
-
+		}
 	}
 	putchar('\n');
 
