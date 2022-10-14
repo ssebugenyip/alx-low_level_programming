@@ -9,7 +9,7 @@
 int main(void)
 {
 	char alphabet = 'A';
-	char ALPHABET = 'a'
+	char ALPHABET = 'a';
 
 	If (alphabet <= 'Z')
 	{
@@ -17,7 +17,7 @@ int main(void)
 		alphabet++;
 
 	}
-	else if (ALPHABET <= 'Z')
+	if (ALPHABET <= 'Z')
 	{
 		putchar(toupper(ALPHABET));
 		ALPHABET++;
