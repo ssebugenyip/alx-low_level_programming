@@ -15,6 +15,7 @@ int main(void)
 		if ((alphabet == 'E') || (alphabet == 'Q'))
 		{
 			continue;
+			putchar(alphabet);
 
 		}
 		putchar(tolower(alphabet));
