@@ -7,9 +7,9 @@
 */
 int main(void)
 {
-	int y = 0;
+	int y;
 
-	for (y = 0; y < 10; y++)
+	for (y = '0'; y < '10'; y++)
 	{
 		putchar(y);
 
