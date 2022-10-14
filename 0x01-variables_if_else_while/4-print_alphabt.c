@@ -10,17 +10,14 @@ int main(void)
 {
 	char alphabet;
 
-	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++) 
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++) 
 	{
-		if ((alphabet == 'E') || (alphabet == 'Q'))
+		if ((alphabet == 'e') || (alphabet == 'q'))
 		{
 			continue;
 			putchar(alphabet);
 
 		}
-		putchar(tolower(alphabet));
-		alphabet++;
-
 
 	}
 	putchar('\n');
