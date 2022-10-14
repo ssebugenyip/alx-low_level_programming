@@ -11,16 +11,14 @@ int main(void)
 	char alphabet = 'A';
 	char ALPHABET = 'a';
 
-	if (alphabet <= 'Z')
+	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
 	{
 		putchar(tolower(alphabet));
-		alphabet++;
 		
-	
-		if (ALPHABET <= 'Z')
+	}
+	for (ALPHABET = 'a'; ALPHABET <= 'Z'; ALPHABET++)
 		{
 			putchar(toupper(ALPHABET));
-			ALPHABET++;
 
 		}
 	}
