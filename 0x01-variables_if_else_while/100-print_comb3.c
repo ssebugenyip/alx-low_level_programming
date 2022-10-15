@@ -15,8 +15,8 @@ int main(void)
 		{
 			if (x != y)
 			{
-			putchar((y % 10) + '0');
-			putchar((x % 10) + '0');
+			putchar(y);
+			putchar(x);
 			if (x == y)
 			{
 				continue;
