@@ -22,7 +22,7 @@ int main(void)
 				continue;
 
 			}
-			if (x == 9 && y == 9)
+			if (x == 0 && y == 1)
 			{
 				break;
 			}
