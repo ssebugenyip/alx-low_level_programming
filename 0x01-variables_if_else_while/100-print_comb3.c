@@ -7,33 +7,25 @@
 int main(void)
 {
 	int x;
-	int y = j;
+	int y;
 
 	for (x = 0; x < 10; x++)
 	{
-		for (y = j; y < 10; y++)
+		for (y = x + 1; y < 10; y++)
 		{
-			if (x != y)
-			{
 			putchar((y % 10) + '0' );
 			putchar((x % 10) + '0');
-			if (x == y)
-			{
-				continue;
-
-			}
+			
+		
 			if (x == 0 && y == 1)
-			{
-				break;
-			}
-			else
-			{
+			
+				continue;
+			
+		
 			putchar(',');
 			putchar(' ');
 		}
-		}
-			j++;
-	}
+	
 	}
 	putchar('\n');
 	return (0);
