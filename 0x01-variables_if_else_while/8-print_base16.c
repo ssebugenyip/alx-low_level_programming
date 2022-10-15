@@ -10,7 +10,7 @@ int main(void)
 	char alphabet = 'a';
 
 	for (y = 0; y <= 9; y++)
-		putchar(y);
+		putchar((y % 10) + '0');
 
 	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
 		putchar(alphabet);
