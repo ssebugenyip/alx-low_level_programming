@@ -7,11 +7,11 @@
 int main(void)
 {
 	int x;
-	int y;
+	int y = j;
 
 	for (x = 0; x < 10; x++)
 	{
-		for (y = 0; y < 10; y++)
+		for (y = j; y < 10; y++)
 		{
 			if (x != y)
 			{
@@ -32,7 +32,7 @@ int main(void)
 			putchar(' ');
 		}
 		}
-			y++;
+			j++;
 	}
 	}
 	putchar('\n');
