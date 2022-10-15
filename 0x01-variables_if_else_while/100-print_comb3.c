@@ -17,7 +17,7 @@ int main(void)
 			putchar((x % 10) + '0');
 			
 		
-			if (x == 9 && y == 9)
+			if (x == 8 && y == 9)
 			
 				continue;
 			
