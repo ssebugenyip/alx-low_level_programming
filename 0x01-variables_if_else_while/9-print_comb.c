@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 /**
 *main - starting point of program
 *description 'All possible combinations of single digit numbers'
