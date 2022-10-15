@@ -31,9 +31,11 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+		}
 			y++;
+	}
 	}
 	putchar('\n');
 	return (0);
-		}
+	
 }
