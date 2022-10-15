@@ -9,14 +9,14 @@ int main(void)
 	int x;
 	int y;
 
-	for (x = 0; x < 9; x++)
+	for (x = 0; x < 10; x++)
 	{
-		for (y = 0; y < 9; y++)
+		for (y = 0; y < 10; y++)
 		{
 			if (x != y)
 			{
-			putchar(y);
-			putchar(x);
+			putchar((y % 10) + '0' );
+			putchar((x % 10) + '0');
 			if (x == y)
 			{
 				continue;
