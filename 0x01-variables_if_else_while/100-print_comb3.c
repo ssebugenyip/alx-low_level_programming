@@ -23,16 +23,16 @@ int main(void)
 
 			}
 			if (x == 9 && y == 9)
-				continue;
-
+			{
+				break;
+			}
+			else
+			{
 			putchar(',');
 			putchar(' ');
 		}
+			y++;
 	}
 	putchar('\n');
-
-
-
-
 	return (0);
 }
