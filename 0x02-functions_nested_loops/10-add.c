@@ -5,12 +5,8 @@
 *@number2: the second integer added
 Return: the result of the summation
 */
-int add;
-int number1;
-int number2;
+int add(int number1, int number2)
 {
 	return (number1 + number2);
-
-
 
 }
