@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*main - starting point of the program
+*print_alphabet - starting point of the program
 * description 'function that prints alphabet in lowcase'
 *Return: always (0) on success
 */
@@ -12,6 +12,5 @@ void print_alphabet(void)
 	{
 		_putchar(letter);
 	}
-		_putchar('\n');
-		
+		_putchar('\n');		
 }
