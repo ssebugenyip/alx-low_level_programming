@@ -4,7 +4,7 @@
 * description 'function that prints alphabet in lowcase'
 *Return: always (0) on success
 */
-void print_alphabet_x10(void);
+void print_alphabet(void)
 {
 	char letter;
 
