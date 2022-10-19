@@ -1,27 +1,40 @@
 #include <stdio.h>
 /**
-*main - 'prints first 50 fibonacci numbers, starting from 1 and 2'
-*Return: always (0) for success
+*print_times_table - 'Prints the times table of the input'
+*@n: The value of the times table to be printed.
 */
-int main(void)
+void print_times_table(int n)
 {
-	int count;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	int num, mult, prod;
 
-	for (count = 0; count < 50; count++)
+	if (n >= 0 && n <= 15)
 	{
-		sum = fib1 + fib2;
-		printf("%lu", sum);
+		for (num = 0; num <= n; num++)
+		{
+			_putchar(',');
+			_putchar(' ');
 
-		fib1 = fib2;
-		fib2 = sum;
-		if (count == 49)
-			printf("\n");
+			prod = num * mult;
 
-		else
-			printf(", ");
+			if (prod <= 99)
+				_putchar(' ');
+			if (prod <= 9)
+				_putchar(' ');
+			if (prod >= 100)
+			{
+				_putchar((prod / 100) + '0');
+				_putchar(((prod / 10)) % 10 + '0');
 
+			}
+			else if (prod <= 99 && prod >= 10)
+			{
+				_putchar((prod / 10) + '0');
+
+			}
+			_putchar((prod % 10) + '0');
+		}
+		_putchar('\n');
 	}
-	return (0);
 
 }
+
