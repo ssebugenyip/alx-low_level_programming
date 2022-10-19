@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
 *main - 'prints first 50 fibonacci numbers, starting from 1 and 2'
