@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *main - starting point of the program
 *positive_or_negative - tests for positive or negative integer
