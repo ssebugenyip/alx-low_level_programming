@@ -3,7 +3,7 @@
 /**
 *main - starting point of the program
 *positive_or_negative - tests for positive or negative integer
-*Return: always o for success
+*Return: always 0 for success
 */
 int main(void)
 {
