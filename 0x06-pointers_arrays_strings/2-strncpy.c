@@ -14,7 +14,7 @@ char *_strncpy(char *dest, char *src, int n)
 	while (source[index++])
 		source_length++;
 
-	for (index = 0; source[index] && index < n; index++)
+	for (index = 0; source_length[index] && index < n; index++)
 		dest[index] = source[index];
 
 	for (index = source_length; index < n; index++)
